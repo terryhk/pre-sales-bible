@@ -24,7 +24,7 @@
 
 ```mermaid
 flowchart TD
-    subgraph ThreeLevels [客户内部立项推进的三大层级]
+    subgraph ThreeLevels ["客户内部立项推进的三大层级"]
         L1["1. 操作层 (Operation)<br>【提出来 / 递上去】<br>负责需求梳理、参数起草的技术/业务骨干"]
         L2["2. 管理层 (Management)<br>【同意并支持 / 把关审核】<br>处室负责人、科技部/采购部经理"]
         L3["3. 决策层 (Decision)<br>【拍板决定 / 批准预算】<br>分管副总裁、CIO、局长 (Sponsor/EB)"]
@@ -33,9 +33,9 @@ flowchart TD
     L1 -->|起草汇报| L2
     L2 -->|提请立项| L3
 
-    subgraph Ally [核心支持者形态]
-        C[Champion 拥护者/内部销售者<br>提供情报 / 内部游说 / 引导评分]
-        S[Sponsor 发起人/出资决策者<br>发起项目 / 调配预算 / 终局定音]
+    subgraph Ally ["核心支持者形态"]
+        C["Champion 拥护者/内部销售者<br>提供情报 / 内部游说 / 引导评分"]
+        S["Sponsor 发起人/出资决策者<br>发起项目 / 调配预算 / 终局定音"]
     end
 
     C -.-> L1 & L2

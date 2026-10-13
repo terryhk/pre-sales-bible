@@ -24,16 +24,16 @@
 
 ```mermaid
 flowchart TD
-    subgraph Circle1 [环一：客户未被满足的隐秘痛点 / 未来动向]
+    subgraph Circle1 ["环一：客户未被满足的隐秘痛点 / 未来动向"]
         C1[不仅看现有需求<br>更看其业务扩张盲区与监管压力]
     end
 
-    subgraph Circle2 [环二：我方的优势能力组合]
+    subgraph Circle2 ["环二：我方的优势能力组合"]
         C2[产品核心特性 + 专业服务经验 + 生态协同能力]
     end
 
-    subgraph Circle3 [环三：当前这几个特定竞品的硬性死穴]
-        C3[对手改动成本极高 / 资质缺失 / 架构天花板]
+    subgraph Circle3 ["环三：当前这几个特定竞品的硬性死穴"]
+        C3["对手改动成本极高 / 资质缺失 / 架构天花板"]
     end
 
     Circle1 & Circle2 & Circle3 --> USP["【黄金交集：打单级杀手 USP】<br>局部唯一、无法模仿、且客户视若生命"]

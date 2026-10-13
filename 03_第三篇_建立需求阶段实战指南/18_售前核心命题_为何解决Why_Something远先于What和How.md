@@ -24,7 +24,7 @@
 
 ```mermaid
 flowchart TD
-    subgraph PurchaseLogic [客户心智决策演进阶梯]
+    subgraph PurchaseLogic ["客户心智决策演进阶梯"]
         W1["第一阶段: Why Something<br>【为何非做不可？为何优先做它？】"]
         W2["第二阶段: Why Now<br>【为何必须现在做？拖延代价何在？】"]
         W3["第三阶段: Why Your Company<br>【为何必须选你？差异化价值何在？】"]
@@ -32,7 +32,7 @@ flowchart TD
 
     W1 --> W2 --> W3
 
-    subgraph DeepWhy [Why Something 的两个深度层次]
+    subgraph DeepWhy ["Why Something 的两个深度层次"]
         L1["层次一：大方向确立 (Direction)<br>在有限预算下，为何优先解决该业务痛点？"]
         L2["层次二：具体特征定义 (Criteria)<br>要解决该问题，理想的系统必须具备哪些刚性特征？"]
     end

@@ -24,14 +24,14 @@
 
 ```mermaid
 flowchart TD
-    subgraph OutView [第一步：向外看四围 (External Stakeholders)]
+    subgraph OutView ["第一步：向外看四围 (External Stakeholders)"]
         O_UP["往上看：上级主管/监管机构/集团总部<br>【制高点：政策指引、行政约束、集团统规】"]
         O_DOWN["往下看：下属子公司/分支机构/基层站点<br>【落地盘：实施边界、试点验证、谁用谁买】"]
         O_LEFT["向左看：上游供应链/系统接口提供方<br>【约束圈：强行接口规范、上游垄断制约】"]
         O_RIGHT["向右看：下游渠道商/终端服务对象<br>【成效面：最终用户体验与满意度评价】"]
     end
 
-    subgraph InView [第二步：向内看八方 (Internal 4-Buyer Model)]
+    subgraph InView ["第二步：向内看八方 (Internal 4-Buyer Model)"]
         EB["EB: 经济买家 (Economic Buyer)<br>掌握预算终审与签单大权 (关注ROI/战略/政绩)"]
         TB["TB: 技术买家 (Technical Buyer)<br>总工程师/架构师/安全保密 (掌握一票否决权)"]
         UB["UB: 用户买家 (User Buyer)<br>一线业务操作员/科室主管 (关注操作便捷与工作量)"]

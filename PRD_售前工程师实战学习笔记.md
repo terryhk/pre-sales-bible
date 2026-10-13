@@ -49,15 +49,15 @@ flowchart TD
     L2 --> L3[第三层：干货与案例萃取]
     L3 --> L4[第四层：工具化与卡片化呈现]
 
-    subgraph L1_Detail [第一层：术语修正与去噪]
+    subgraph L1_Detail ["第一层：术语修正与去噪"]
         R1[批量修正ASR专有名词：售前、招投标、赢单、PDCA、SOW、POC、RFP等]
         R2[剔除录音结尾营销废话：点赞、打赏、关注等]
     end
 
-    subgraph L3_Detail [第三层：高价值提炼]
+    subgraph L3_Detail ["第三层：高价值提炼"]
         R3[提取金句心法]
         R4[STAR结构化复盘经典案例]
-        R5[归纳4S/IBM SS/SPIN等模型]
+        R5["归纳4S/IBM SS/SPIN等模型"]
     end
 ```
 

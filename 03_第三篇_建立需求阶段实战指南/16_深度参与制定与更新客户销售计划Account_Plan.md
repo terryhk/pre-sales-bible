@@ -24,21 +24,21 @@
 
 ```mermaid
 flowchart TD
-    subgraph Macro [一、宏观与组织层]
+    subgraph Macro ["一、宏观与组织层"]
         M1[1. 客户基本盘与财报趋势]
         M2[2. 核心部门架构与决策链]
         M3[3. 历年IT投资与本年预算池]
         M4[4. 采购流程与合规刚性规定]
     end
 
-    subgraph Tech [二、技术与业务痛点层 (售前主导)]
+    subgraph Tech ["二、技术与业务痛点层 (售前主导)"]
         T1[5. 技术底座画像 Technical Profile]
         T2[6. 项目起源与急迫性动机分析]
         T3[7. 战略溢出效应与示范影响]
         T4[8. 历史采购履约与遗留问题]
     end
 
-    subgraph Action [三、战役执行与保障层]
+    subgraph Action ["三、战役执行与保障层"]
         A1[9. 项目生命周期里程碑预估]
         A2[10. 销售目标分解与竞争策略]
         A3[11. 客户拜访推进执行表]
