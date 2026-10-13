@@ -17,3 +17,7 @@ Thumbs.db
 # Temporary and build files
 *.tmp
 *.log
+
+# Raw corpus
+文字稿/
+
